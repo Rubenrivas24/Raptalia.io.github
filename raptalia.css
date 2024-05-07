@@ -1,0 +1,147 @@
+@media only screen(max-width:1024px) {
+    /* Ruta relativa o completa a la imagen */
+    background-image:url("https://p4.wallpaperbetter.com/wallpaper/89/603/771/tate-no-yusha-no-nariagari-raphtalia-anime-girls-hd-wallpaper-preview.jpg");
+    background-size:cover;
+}
+
+.html,
+body {
+    /* Para que funcione correctamente en Smartphones y Tablets */
+    height: 100vh;
+}
+
+body {
+    /* Ruta relativa o completa a la imagen */
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/89/603/771/tate-no-yusha-no-nariagari-raphtalia-anime-girls-hd-wallpaper-preview.jpg");
+    /* Centramos el fondo horizontal y verticalmente */
+    background-position: center center;
+    /* El fonde no se repite */
+    background-repeat: no-repeat;
+    /* Fijamos la imagen a la ventana para que no supere el alto de la ventana */
+    background-attachment: absolute;
+    /*El fonde se re-escala automáticamente */
+    background-size: cover;
+    /* Fuente para el texto */
+    text-align: center;
+    font-family: Times New Roman, Century Gothic, serif;
+}
+
+#hora {
+    color: white;
+    background-color: #4a2b03d8;
+    width: 80px;
+    height: 80px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    padding-bottom: 5px;
+    float: right;
+    opacity: 0.8;
+    filter: alpha(opacity=80%);
+}
+
+#day {
+    color: white;
+    background-color: #4a2b03d8;
+    width: 80px;
+    height: 80px;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    filter: alpha(opacity=80%);
+
+}
+
+#month {
+    width: 80px;
+    height: 80px;
+    background-color: #00aae4;
+    color: #ffffff;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    filter: alpha(opacity=80%);
+}
+
+#year {
+    width: 80px;
+    height: 80px;
+    background-color: pink;
+    color: black;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    filter: alpha(opacity=80%);
+}
+
+#dia {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: #f9a6e6;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+    padding-bottom: 5px;
+    opacity: 0.8;
+    filter: alpha(opacity=80%);
+}
+
+
+.frases {
+    background-color: white;
+    color: black width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    text-align: center;
+}
+
+#mode {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    float: left;
+
+}
+
+#foto {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    float: right;
+}
+
+#altavoz {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
